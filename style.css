@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+/* ben trai #479099 */
+/* title #39737a */
+:root{
+    --primary-color:#479099;
+    --shadow-left : #39737a;
+    --black-color: #000000;
+    --white-color:#ffffff;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto';
+}
+body {
+    background-color:#303d46;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:90vh;
+}
+.container{
+    position: relative;
+    Background-color:white;
+    width:100%;
+    max-width:1000px;
+    min-height: 100px;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    margin:50px
+}
+/* Left Contact */
+.container .left-side{
+    background-color:var(--primary-color);
+    position: relative;
+    padding:25px;
+}
+.container .right-side{
+    background-color:var(--white-color);
+    position: relative;
+  
+}
+.left-side-ava-text{
+    position :relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.left-side-ava-text h2{
+    padding:20px 0px;
+    color:var(--white-color);
+    font-weight: 700;
+    text-align: center;
+    border-bottom: 1px solid var(--white-color);
+}
+.left-side-ava-text h2 span{
+    font-weight: 400;
+}
+.image-ava{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow:hidden;
+    padding-bottom: 20px;
+}
+.image-ava img{
+    width:200px;
+    object-fit: contain;
+}
+
+.left_side-contact h2,
+.left_side-education,
+.left_side-languages{
+    padding-bottom: 10px;
+    color:var(--white-color);
+}
+
+.left_side-contact
+
+{
+    position: relative;
+    padding:10px 0 50px 0;
+    border-bottom: 1px solid var(--white-color);
+}
+.left_side-education{
+    position: relative;
+    padding:10px 0 80px 0;
+}
+.left_side-languages{
+    position: relative;
+    padding:10px 0 50px 0;
+}
+.left_side-contact ul,
+.left_side-education ul{
+    padding-left:0px;
+}
+.left_side-languages span{
+    padding:5px;
+}
+.left_side-contact ul li,
+.left_side-education ul li{
+    display:flex;
+    padding:3px;
+    list-style: none;
+    color:var(--white-color);
+}
+.left_side-education span {
+    display:block;
+}
+.left_side-contact .contact-text{
+    padding-left:10px;
+}
+
+.left_side-contact ul li a{
+    text-decoration: none;
+    color:var(--white-color);
+
+}
+
+
+
+/* Right contact */
+.righ_side-profile p{
+    padding:5px;
+}
+.right_side-skills .skills{
+    display:flex;
+
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+.title-right{
+    margin-top:20px;
+    background-color:var(--primary-color);
+}
+.title-right h1{
+    color:var(--white-color);
+    padding-left:30px;
+}
+.skills{
+    padding:10px 30px 30px;
+    
+}
+.skills ul:first-child {
+    padding-left: 30px;
+    padding-right: 50px;
+    
+}
+
+.right_side-experience .experience{
+    font-size: 20px;
+    padding:10px 30px 30px;
+}
+.right_side-experience .experience ul {
+    padding-left:0px;
+    list-style: none;
+}
+.right_side-experience .experience ul li {
+    padding-top:6px;
+}
